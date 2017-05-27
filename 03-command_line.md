@@ -19,7 +19,19 @@ Here's a list of items with which you should be familiar:
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
-> > * '''pwd''' show current working directory path.
+> > * ```pwd``` show current working directory path.
+> > * ```mkdir``` create a directory.
+> > * ```rm -r name_of directory``` delete a folder and all of its contents.
+> > * ```touch filename.txt``` creates an empty file with the name "filename.txt".
+> > * ```rm filename``` delete a file.
+> > * ```mv oldfile.txt newfile.txt``` renames "oldfile" as "newfile".
+> > * ```ls -a``` list all files, including hidden files.
+> > * ```ls -ld .?*``` list _only_ hidden files.
+> > * ```cp file.txt newdir/``` make a copy of file.txt in "newdir/".
+> > * ```cat file''' view the contents of file.
+> > * ```cat file1.txt > file2.txt``` take the standard output of the command on the left, and redirects it to the file2.txt. This command overwrites file2.txt if it previously existed. 
+> > * ```cat file1.txt >> file2.txt``` take the standard output of the command on the left, and append it to the file2.txt.
+> > * ```cat file.txt | sort ``` take the output from the command on the left and "pipes" it as the standard input to the command on the right. Sort orders each line alphabetically.  
 
 ---
 
