@@ -28,11 +28,12 @@ Make a cheat sheet for yourself: a list of at least **ten** commands and what th
 > > * ```ls -a``` list all files, including hidden files.
 > > * ```ls -ld .?*``` list _only_ hidden files.
 > > * ```cp file.txt newdir/``` make a copy of file.txt in "newdir/".
-> > * ```cat file''' view the contents of file.
+> > * ```cat file``` view the contents of file.
 > > * ```cat file1.txt > file2.txt``` take the standard output of the command on the left, and redirects it to the file2.txt. This command overwrites file2.txt if it previously existed. 
 > > * ```cat file1.txt >> file2.txt``` take the standard output of the command on the left, and append it to the file2.txt.
-> > * ```cat file.txt | sort ``` take the output from the command on the left and "pipes" it as the standard input to the command on the right. Sort orders each line alphabetically.  
-
+> > * ```cat file.txt | sort ``` take the output from the command on the left and "pipes" it as the standard input to the command on the right. "Sort" orders each line alphabetically.
+> > * ```grep -i "string" file.txt``` finds all lines in file.txt that has "string".
+> > * ```sed 's/oldstring/newstring' file.txt``` replaces all instances of "oldstring" with "newstring" in file.txt
 ---
 
 ### Q2.  List Files in Unix   
