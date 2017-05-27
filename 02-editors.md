@@ -89,6 +89,4 @@ What terminal editor will be your preferred choice of use? How did you make your
 
 What graphical editor will you use? How did you make your decision? What are some interesting features of your editor? What are some useful keyboard shortcuts for your editor? How do you customize your editor?
 
->> I am going to use spyder or rodeo. I like that they are designed for scientific computing and data science. They are also relatively similar to the matlab environment that I am use to. Both have variable viewers. Both have useful "object inspectors" (i.e. help) and variable viewers. Spyder might end up winning because of better debugging features. 
-
- 
+>> I am going to use spyder or rodeo. I like that they are designed for scientific computing and data science. They are also relatively similar to the matlab environment that I am use to. Both have useful "object inspectors" (i.e. help) and variable viewers. Spyder might end up winning because of better debugging features. 
