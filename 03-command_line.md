@@ -47,7 +47,13 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > `ls` list files in directory.  
+> > `ls -a` list _all_ files in directory including hidd files that start with "."
+> > `ls -l` list files in directory in long format.
+> > `ls -lh` list files in directory in long format with human readable file sizes.
+> > `ls -lah` list _all_ file in directory in long format, including hidden files. Print file size in human readable format. 
+> > `ls -t`  list all files in chronological order with newest at the top.
+> > `ls -Glp`  list all files in long format. Enable colorized output. Put a "/" after directories.
 
 ---
 
