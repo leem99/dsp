@@ -61,7 +61,11 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > * `ls -ltr` list files in long format. Files are listed chronologically with the oldest file on the top.
+> > * `ls -A` list _all_ files, including hidden files, _except_ for "." ands "..".
+> > * `ls -R` list files from directory, and all subdirectories.
+> > * `ls -S` list files sorted by size with the largest file at the top.
+> > * `ls -U` list file using time of file creation, instead of last modification.
 
 ---
 
