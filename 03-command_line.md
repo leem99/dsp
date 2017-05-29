@@ -73,7 +73,12 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > `xargs` takes a standard input list, that has been piped to it, and applies a function to each item in the list. This function enables a user to replace looping bash script with a "one liner". This function is conceptually similar to python list comprehension. 
+> >
+> > __Example__
+> > `xargs` can be used in combination with the `find` command in order to recieve a list of files meeting a criteria (such as the .py ending), and perform and operation on those files (such as deleting them).
+> >
+> > `find . -name "*.py" | xargs rm -rf`
 
  
 
