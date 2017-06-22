@@ -15,7 +15,7 @@ thinkplot.Config(xlabel='Random Number', ylabel='PMF')
 
 Nothing looks particulary "wrong" with the pmf. However, instead of being completely uniform, there are some gaps in the distribution. This is a discrete data set with a finite number of values. For some interval, a random number had not been drawn.
 
-put PMF here
+![PMF](https://github.com/leem99/dsp/blob/master/statistics/p42_pmf.png)
 
 CDF
 
@@ -25,7 +25,7 @@ thinkplot.cdf(rand_nums_cdf)
 thinkplot.Config(xlabel='Random Number', ylabel='CDF')
 ```
 
-put CDF here
+![CDF](https://github.com/leem99/dsp/blob/master/statistics/p42_cdf.png)
 
 Because the CDF is approximately linear, one can infer that the distribution is uniform.
 
