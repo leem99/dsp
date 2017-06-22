@@ -1,5 +1,6 @@
 [Think Stats Chapter 3 Exercise 1](http://greenteapress.com/thinkstats2/html/thinkstats2004.html#toc31) (actual vs. biased)
 
+__Solution__
 ```python
 resp = nsfg.ReadFemResp()
 childern_per_household = resp['numkdhh']
@@ -24,4 +25,8 @@ cph_pmf_mean, cph_pmf_biased_mean
 ```
 
 The unbiased mean number of children per household is ~1.0. The biased mean number of children per household is ~ 2.4.
+
+__Distributions__
+
+![P3.1 Distribution](https://github.com/leem99/dsp/blob/master/statistics/stats_p3_1.png)
 
