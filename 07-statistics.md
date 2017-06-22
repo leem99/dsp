@@ -110,10 +110,12 @@ How do frequentist and Bayesian statistics compare?
 
 >> Frequentists and Bayesians differ in their philosophical approaches to statistical analysis. 
 >>
->> __Frequentists:__ Make the presumption that some hypothesis regarding the distribution of a data set is true and that the observed data is sampled from that distribution. They then evaluate the probability of observing a result, given that the hypothesis is true. Frequentists never make statements regarding the probability of a hypothesis. For example, a frequentist line of reasoning can be explained through (careful) explaination of a confidence interval for a population mean. A 95% confidence interval (CI) for a population mean does __not__ indicate that there is a 95% probablility that the true mean is in the CI. A 95% CI indicates that if an experiment was repeated an infinite number of times, 95% of the CIs would contain the population mean.
->>
+>> __Frequentists:__ Make the presumption that some hypothesis regarding the distribution of a data set is true and that the observed data is sampled from that distribution. They then evaluate the probability of observing a result, given that the hypothesis is true.
+>>Frequentists never make statements regarding the probability of a hypothesis. For example, a frequentist line of reasoning can be explained through (careful) explaination of a confidence interval for a population mean. A 95% confidence interval (CI) for a population mean does __not__ indicate that there is a 95% probablility that the true mean is in the CI. A 95% CI indicates that if an experiment was repeated an infinite number of times, 95% of the CIs would contain the population mean.
 >> 
->> __Bayesians:__ 
+>> __Bayesians:__  For Bayesians, the concept of probability is extended to cover degrees of certainty regarding the hypothesis itself. For Bayesians, the probability of a hypothesis is dependent upon a prior (knowledge, or assumptions, regarding the hypothesis) before the data is considered, and the evidence provided by the data.
+>> Bayesians can test different priors to observe how sensitive their results are to the choice of prior. 
+>> Bayesians can report a posterior distribution. Let's consider the previous example regarding the estimation of a population mean. Unlike a Frequentist, a Bayesian is willing to draw a probability distribution for the true population mean. 
 
 ---
 
